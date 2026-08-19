@@ -46,3 +46,44 @@ console.log(typeof Bignumber)
 
 myfunction()
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack  : stack are used in premitive data types
+//we got copy of the memory created in stack
+
+
+
+let name="Muhammad Ali"
+let anothername=name
+anothername="Asad"
+
+console.log(name,anothername)
+
+
+//heap  : heap are used for non premitive datatypes
+//we got refrence of the memory creted in heap
+
+let userone={
+    name : "ALi",
+    age:20,
+    cast:"Abbasi"
+}
+
+let usertwo=userone
+usertwo.name="Afridi"
+userone.age=25
+
+console.table(userone)
+console.table(usertwo)
+
+
+
+
+
+
+
+
+
+
+
+
